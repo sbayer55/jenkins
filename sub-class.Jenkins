@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('com.ihm.tools') _
+@Library('my_library') _
 
 pipelineTemplate {
   MY_NAME = "George"
