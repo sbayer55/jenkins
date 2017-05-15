@@ -15,5 +15,8 @@ def call(body) {
                 sh "echo ${MY_NAME}"
             }
         }
+    } catch(e) {
+      throw e
+    } finally {
     }
 }
